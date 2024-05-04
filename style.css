@@ -1,0 +1,103 @@
+/* Custom CSS for styling the menu bar with progress circles */
+
+/* Navbar styles */
+.navbar {
+    background-color: #343a40; /* Dark background color */
+    position: fixed; /* Fix the navbar at the top */
+    width: 100%; /* Make the navbar full-width */
+    z-index: 1000; /* Ensure the navbar is above other elements */
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+}
+
+.navbar-brand {
+    font-weight: bold; /* Bold font weight */
+    color: #fff; /* White text color */
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px; /* Adjust spacing between menu items */
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* White text color */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    border-radius: 0; /* Remove border-radius */
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+}
+
+/* Progress circles */
+#progress-container {
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    z-index: 9999; /* Ensure progress circles are above other elements */
+}
+
+.progress-circle {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+	border-color: black;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.progress-circle.active {
+    background-color: #ffd700; /* Yellow color for active progress circle */
+}
+
+/* Sections */
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: #f8f9fa;
+   
+}
+
+/* Custom CSS for all sections */
+.section {
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Set the height of the section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Text color */
+    text-align: center;
+
+}
+
+.section-content {
+    max-width: 800px; /* Max width for content */
+    padding: 20px; /* Padding for content */
+    background-color: rgba(0, 0, 0, 1); /* Semi-transparent background for content */
+}
+
+.section-content h1 {
+    font-size: 2.5rem; /* Font size for heading */
+    margin-bottom: 20px; /* Bottom margin for heading */
+}
+
+.section-content p {
+    font-size: 1.2rem; /* Font size for paragraph */
+    line-height: 1.6; /* Line height for paragraph */
+}
+
+/* Custom CSS for styling buttons */
+.btn-outline-secondary.learn-button {
+    color: #fff; /* White text color */
+    border-color: #fff; /* White border color */
+}
+
+.btn-outline-secondary.learn-button:hover {
+    background-color: #fff; /* White background color on hover */
+    color: #343a40; /* Dark text color on hover */
+}
