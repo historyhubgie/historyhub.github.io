@@ -37,8 +37,8 @@
 }
 
 .progress-circle {
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     background-color: #fff;
 	border-color: black;
     border-radius: 50%;
@@ -76,9 +76,9 @@
 }
 
 .section-content {
-    max-width: 800px; /* Max width for content */
+    max-width: 700px; /* Max width for content */
     padding: 20px; /* Padding for content */
-    background-color: rgba(0, 0, 0, 1); /* Semi-transparent background for content */
+    background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent background for content */
 }
 
 .section-content h1 {
